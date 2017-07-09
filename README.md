@@ -1,4 +1,4 @@
-Modified from the Original version by the UKE
+![KP Liberation](https://www.killahpotatoes.de/images/arma/liberation.png)
 
 # KP Liberation for ArmA 3
 
@@ -345,4 +345,3 @@ class Missions
 * Removed: Farooq's Revive
 * Tweaked: Player group organisation (group changing via extended options ingame still enabled)
 * Tweaked: File organization (split scriptpart from missionpart, so it's easier to provide different maps)
-"# Arma3TakistanCoOp" 
