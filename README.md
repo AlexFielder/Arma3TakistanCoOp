@@ -1,4 +1,8 @@
-![KP Liberation](https://www.killahpotatoes.de/images/arma/liberation.png)
+!Modified by the UKE 
+
+Based on the original by KP.
+
+Original Version information below:
 
 # KP Liberation for ArmA 3
 
