@@ -65,17 +65,17 @@ light_vehicles = [
 	["B_Quadbike_01_F",50,0,25],										//Quad Bike
 	["B_LSV_01_unarmed_F",75,0,50],										//Prowler
 	["B_LSV_01_armed_F",75,40,50],										//Prowler (HMG)
-	["UK3CB_BAF_LandRover_Soft_FFR_Green_A_MTP",75,0,50],				//Land Rover SoftTop
-	["UK3CB_BAF_LandRover_Hard_FFR_Green_A_MTP",75,0,50],				//Land Rover HardTop
-	["UK3CB_BAF_LandRover_WMIK_HMG_FFR_Green_A_MTP",100,40,50],			//Land Rover WMIK (HMG)
-	["UK3CB_BAF_LandRover_WMIK_GMG_FFR_Green_A_MTP",100,60,50],			//Land Rover WMIK (GMG)
-	["UK3CB_BAF_LandRover_WMIK_Milan_FFR_Green_A_MTP",100,100,50],		//Land Rover WMIK (Milan)
-	["UK3CB_BAF_Jackal2_L2A1_W_MTP",100,80,50],							//Jackal 2 (HMG)
-	["UK3CB_BAF_Jackal2_GMG_W_MTP",100,100,50],							//Jackal 2 (GMG)
-	["UK3CB_BAF_Coyote_Passenger_L111A1_W_MTP",100,80,50],				//Coyote Passenger (HMG)
-	["UK3CB_BAF_Coyote_Passenger_L134A1_W_MTP",100,100,50],				//Coyote Passenger (GMG)
-	["UK3CB_BAF_Coyote_Logistics_L111A1_W_MTP",100,80,50],				//Coyote Logistics (HMG)
-	["UK3CB_BAF_Coyote_Logistics_L134A1_W_MTP",100,100,50],				//Coyote Logistics (GMG)
+	["UK3CB_BAF_LandRover_Soft_FFR_Sand_A_MTP",75,0,50],				//Land Rover SoftTop
+	["UK3CB_BAF_LandRover_Hard_FFR_Sand_A_MTP",75,0,50],				//Land Rover HardTop
+	["UK3CB_BAF_LandRover_WMIK_HMG_FFR_Sand_A_MTP",100,40,50],			//Land Rover WMIK (HMG)
+	["UK3CB_BAF_LandRover_WMIK_GMG_FFR_Sand_A_MTP",100,60,50],			//Land Rover WMIK (GMG)
+	["UK3CB_BAF_LandRover_WMIK_Milan_FFR_Sand_A_MTP",100,100,50],		//Land Rover WMIK (Milan)
+	["UK3CB_BAF_Jackal2_L2A1_D_MTP",100,80,50],							//Jackal 2 (HMG)
+	["UK3CB_BAF_Jackal2_GMG_D_MTP",100,100,50],							//Jackal 2 (GMG)
+	["UK3CB_BAF_Coyote_Passenger_L111A1_D_MTP",100,80,50],				//Coyote Passenger (HMG)
+	["UK3CB_BAF_Coyote_Passenger_L134A1_D_MTP",100,100,50],				//Coyote Passenger (GMG)
+	["UK3CB_BAF_Coyote_Logistics_L111A1_D_MTP",100,80,50],				//Coyote Logistics (HMG)
+	["UK3CB_BAF_Coyote_Logistics_L134A1_D_MTP",100,100,50],				//Coyote Logistics (GMG)
 	["rhsusf_M1237_M2_usarmy_wd",125,40,75],							//M1237 (HMG)
 	["rhsusf_M1237_MK19_usarmy_wd",125,60,75],							//M1237 (GMG)
 	["rhsusf_M977A4_BKIT_usarmy_wd",125,0,75],							//M977A4 BKIT 
@@ -89,9 +89,27 @@ light_vehicles = [
 ];
 
 heavy_vehicles = [
-
+    ["rhsusf_m113_usarmy",200,40,100],									//M113A3 (M2)
+    ["rhsusf_m113_usarmy_MK19",200,60,100],								//M113A3 (Mk19)
+	["rhsusf_m113_usarmy_medical",200,0,100],							//M113A3 (Medical)
+	["B_APC_Wheeled_01_cannon_F",200,75,125],							//AMV-7 Marshall
+	["I_APC_Wheeled_03_cannon_F",200,75,125],							//AFV-4 Gorgon
+	["B_APC_Tracked_01_rcws_F",300,100,150],							//IFV-6c Panther
+	["I_APC_tracked_03_cannon_F",300,150,150],							//FV-720 Mora
+	["RHS_M2A2_BUSKI_WD",300,200,150],									//M2A2ODS (Busk I)
+	["RHS_M2A3_BUSKIII_wd",300,250,175],								//M2A3 (Busk III)
+	["B_APC_Tracked_01_AA_F",300,250,175],								//IFV-6a Cheetah
+	["RHS_M6_wd",300,250,175],											//M6A2
+	["B_MBT_01_cannon_F",400,300,200],									//M2A1 Slammer
+	["I_MBT_03_cannon_F",400,300,200],									//MBT-52 Kuma
+	["rhsusf_m1a1aim_tuski_wd",400,350,225],							//M1A1SA (Tusk I)
+	["B_MBT_01_TUSK_F",500,350,225],									//M2A4 Slammer UP
+	["rhsusf_m1a2sep1tuskiiwd_usarmy",500,400,250],						//M1A2SEPv1 (Tusk II)
+	["B_MBT_01_arty_F",600,1250,300],									//M4 Scorcher
+	["rhsusf_m109_usarmy",600,1250,300],								//M109A6
+	["B_MBT_01_mlrs_F",800,1750,400]									//M5 Sandstorm MLRS
 ];
-
+    
 air_vehicles = [
 	["B_UAV_01_F",75,0,25],												//AR-2 Darter
 	["UK3CB_BAF_Wildcat_AH1_TRN_8A_MTP",225,0,125],						//Wildcat AH1 8 Transport (Unarmed)
