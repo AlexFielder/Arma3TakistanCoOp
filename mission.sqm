@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=884;
+		nextID=886;
 	};
 	class LayerIndexProvider
 	{
@@ -16,7 +16,7 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2910.4246,417.71164,352.69678};
+		pos[]={2912.5552,416.15851,349.23285};
 		dir[]={-0.12756334,-0.62744612,-0.76825672};
 		up[]={-0.10282746,0.77837366,-0.61929262};
 		aside[]={-0.98657686,7.8177254e-007,0.16381061};
@@ -13076,10 +13076,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={2862.0669,356.36884,260.08499};
+				position[]={2876.3101,358.49503,249.55901};
 			};
 			id=883;
 			type="UK3CB_BAF_Vehicles_Logistics_Module";
+			atlOffset=-3.0517578e-005;
 			class CustomAttributes
 			{
 				class Attribute0
