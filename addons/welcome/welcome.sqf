@@ -19,6 +19,8 @@ _att hintC [
     parseText "<t shadow='2'size='1' >Rule #3</t><br/><t shadow='2'size='0.75' >Join Squads, Work as a Team, Attack Objectives together, Lone Wolf Players will be removed.</t>",
     parseText "<t shadow='2'size='1' >Rule #4</t><br/><t shadow='2'size='0.75' >Capture AI Surrendering (Hands on Heads) and take them to FOB for intel.</t>",
     parseText "<t shadow='2'size='1' >Rule #5</t><br/><t shadow='2'size='0.75' >FOBs will require a vehicle logistics module to be placed in order to use in-vehicle logistics menu</t>",
+    parseText "<t shadow='2'size='1' >Rule #6</t><br/><t shadow='2'size='0.75' >TFAR Freq. 30 is recommended for main squad activities/comms.</t>",
+    parseText "<t shadow='2'size='1' >Rule #7</t><br/><t shadow='2'size='0.75' >TFAR Freq. 45 is recommended for long range activities/comms. (<b>Requires Long Range Radio</b>)</t>",
     parseText "<t shadow='2'size='1' >Info:</t><br/><t shadow='2'size='0.75' >
     TeamSpeak Server: teamspeak3.i3d.net:10213
     <br/>
