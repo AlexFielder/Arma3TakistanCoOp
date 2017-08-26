@@ -36,7 +36,6 @@ if (hasInterface || isServer) then
 	[] call compileFinal preprocessFileLineNumbers "addons\welcome\welcome.sqf";
 };
 
-
 if (!isDedicated && hasInterface) then {
 	waitUntil { alive player };
 	[] call compileFinal preprocessFileLineNumbers "scripts\client\init_client.sqf";
