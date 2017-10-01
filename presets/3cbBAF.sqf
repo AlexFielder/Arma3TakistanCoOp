@@ -118,9 +118,7 @@ air_vehicles = [
 	["UK3CB_BAF_Wildcat_HMA2_TRN_8A_MTP",250,0,125],					//Wildcat HMA2 8 Transport (Unarmed)
 	["UK3CB_BAF_Wildcat_AH1_CAS_6C_MTP",275,200,150],					//Wildcat AH1 6 (CAS/AT)
 	["UK3CB_BAF_Wildcat_AH1_CAS_8C_MTP",275,200,150],					//Wildcat AH1 8 (CAS/AT)
-	//["UK3CB_BAF_Apache_AH1_MTP",500,500,200],							//Apache AH 1 (Multi-Role)
-	["UK3CB_BAF_Wildcat_AH1_HEL_8A_MTP",275,250,150],
-				//Wildcat 8 Hellfires
+	["UK3CB_BAF_Apache_AH1_MTP",500,500,200],							//Apache AH 1 (Multi-Role)
 	["RHS_AH64D_wd",750,750,250],										//AH-64D (Multi-Role)
 	["RHS_UH60M",250,80,150],											//UH-60M
 	["RHS_UH60M_MEV2",300,0,150],										//UH-60M MEV2
@@ -249,7 +247,8 @@ support_vehicles = [
 	[KP_liberation_air_vehicle_building,1000,0,0],
 	[KP_liberation_heli_slot_building,250,0,0],
 	[KP_liberation_plane_slot_building,500,0,0],
-	["UK3CB_BAF_Vehicles_Logistics_Point",100,100,0],
+	["UK3CB_BAF_Vehicles_Logistics_Point",100,100,0],						//vehicle cargo loading for 3cb
+	["UK3CB_BAF_Vehicles_Servicing_Aircraft_Point",250,250,250]						//vehicle ammo loading for 3cb
 	["ACE_medicalSupplyCrate_advanced",50,0,0],
 	["ACE_Box_82mm_Mo_HE",50,40,0],
 	["ACE_Box_82mm_Mo_Smoke",50,10,0],
